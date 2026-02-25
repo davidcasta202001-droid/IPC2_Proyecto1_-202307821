@@ -29,6 +29,15 @@ namespace P1
                 ultimo = nuevo;
             }
         }
+        public void mostrarFila()
+        {
+            Nodo actual = primero;
+            while (actual != null)
+            {
+                Console.WriteLine($"|{actual.estado}|");
+                actual = actual.siguiente;
+            }
+        }
     }
     
 }
