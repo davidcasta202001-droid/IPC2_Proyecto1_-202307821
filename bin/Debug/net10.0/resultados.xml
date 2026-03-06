@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resultados>
+  <paciente>
+    <nombre>Carlos Ruiz</nombre>
+    <edad>34</edad>
+    <resultado>Grave</resultado>
+    <n>16</n>
+    <n1>14</n1>
+  </paciente>
+</resultados>

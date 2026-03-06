@@ -1,0 +1,17 @@
+<pacientes>
+<paciente>
+<datospersonales>
+<nombre>Carlos Ruiz</nombre>
+<edad>34</edad>
+</datospersonales>
+<periodos>15</periodos>
+<m>10</m>
+<rejilla>
+<celda f="4" c="4"/>
+<celda f="4" c="5"/>
+<celda f="4" c="6"/>
+<celda f="5" c="4"/>
+<celda f="5" c="6"/>
+</rejilla>
+</paciente>
+</pacientes>

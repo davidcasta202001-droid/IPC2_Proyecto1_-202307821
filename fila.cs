@@ -14,19 +14,7 @@ namespace EjemploP1
             this.primero = null;
             this.ultimo = null;
         }
-        public Nodo Buscar(int columna)
-        {
-            Nodo actual = primero;
-            while (actual != null)
-            {
-                if (actual.columa == columna) 
-                {
-                    return actual; 
-                }
-                actual = actual.siguiente; 
-            }
-            return null; 
-        }
+
         public void agregarNodo(Estado estado, int fila, int columna)
         {
             Nodo nuevo = new Nodo(estado, fila, columna);
@@ -52,6 +40,18 @@ namespace EjemploP1
                 actual = actual.siguiente;
             }
         }
-        
+        public Nodo Buscar(int columna)
+        {
+            Nodo actual = primero;
+            while (actual != null)
+            {
+                if (actual.columna == columna) 
+                {
+                    return actual; 
+                }
+                actual = actual.siguiente; 
+            }
+            return null;
+        }
     }
 }
