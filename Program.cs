@@ -44,7 +44,6 @@ namespace EjemploP1
                 int N, N1;
                 string resultado = rejillaObj.DetectarPatron(historial, out N, out N1);
 
-                // Crear nodo XML de salida
                 XElement pacienteXml = new XElement("paciente",
                     new XElement("nombre", nombre),
                     new XElement("edad", edad),
