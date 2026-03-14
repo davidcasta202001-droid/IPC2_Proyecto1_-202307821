@@ -106,13 +106,13 @@ namespace EjemploP1
                             Console.WriteLine("Ingrese COLUMNA: ");
                             int columna = int.Parse(Console.ReadLine());
                             rejilla.cambiarEstado(fila, columna, Estado.Sana);
-
                             Console.WriteLine("Ingrese valor de resistencia N: ");
                             int n = int.Parse(Console.ReadLine());
                             Console.WriteLine(rejilla.EstadoActual());
                             for (int p = 1; p <= periodos; p++)
                             {
                                 int k=n-p;
+                                rejilla.Resistencia(fila,columna,n);
                                 Console.WriteLine("Contador de N");
                                 Console.WriteLine(k);
                                 if (k == 0)
@@ -120,7 +120,7 @@ namespace EjemploP1
                                     break;
                                 }
                             }
-                            
+
                         break;
                     }
                 }
